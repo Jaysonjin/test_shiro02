@@ -29,6 +29,10 @@ public class UserLogin3 {
 		//第五步：把用户输入的用户名和密码封装到token中
 		UsernamePasswordToken token = new UsernamePasswordToken("syj", "admin");
 
+		//此处版本已经修改，添加了一条重要语句
+		System.out.println("已经纠结了两个小时了，这次一定可以弄好");
+
+
 		try {
 			//第六步：执行认证提交
 			subject.login(token);
