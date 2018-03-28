@@ -31,7 +31,7 @@ public class UserLogin3 {
 
 		//此处版本已经修改，添加了一条重要语句
 		System.out.println("已经纠结了两个小时了，这次一定可以弄好");
-
+		System.out.println("打乱插入，git提交第二次");
 
 		try {
 			//第六步：执行认证提交
@@ -55,6 +55,7 @@ public class UserLogin3 {
 	public static void main(String[] args) {
 		UserLogin3 userLogin3 = new UserLogin3();
 		userLogin3.yunLonginAndPers();
+		System.out.println("主要查看提价面板");
 	}
 
 }
