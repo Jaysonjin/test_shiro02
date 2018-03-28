@@ -55,7 +55,7 @@ public class UserLogin3 {
 	public static void main(String[] args) {
 		UserLogin3 userLogin3 = new UserLogin3();
 		userLogin3.yunLonginAndPers();
-		System.out.println("主要查看提价面板");
+		System.out.println("主要查看提交面板");
 	}
 
 }
